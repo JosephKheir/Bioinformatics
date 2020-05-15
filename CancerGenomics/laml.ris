@@ -1,0 +1,138 @@
+TY  - JOUR
+DB  - PubMed
+AU  - Cancer Genome Atlas Research Network
+AU  - Ley, Timothy J
+AU  - Miller, Christopher
+AU  - Ding, Li
+AU  - Raphael, Benjamin J
+AU  - Mungall, Andrew J
+AU  - Robertson, A Gordon
+AU  - Hoadley, Katherine
+AU  - Triche, Timothy J, Jr
+AU  - Laird, Peter W
+AU  - Baty, Jack D
+AU  - Fulton, Lucinda L
+AU  - Fulton, Robert
+AU  - Heath, Sharon E
+AU  - Kalicki-Veizer, Joelle
+AU  - Kandoth, Cyriac
+AU  - Klco, Jeffery M
+AU  - Koboldt, Daniel C
+AU  - Kanchi, Krishna-Latha
+AU  - Kulkarni, Shashikant
+AU  - Lamprecht, Tamara L
+AU  - Larson, David E
+AU  - Lin, Ling
+AU  - Lu, Charles
+AU  - McLellan, Michael D
+AU  - McMichael, Joshua F
+AU  - Payton, Jacqueline
+AU  - Schmidt, Heather
+AU  - Spencer, David H
+AU  - Tomasson, Michael H
+AU  - Wallis, John W
+AU  - Wartman, Lukas D
+AU  - Watson, Mark A
+AU  - Welch, John
+AU  - Wendl, Michael C
+AU  - Ally, Adrian
+AU  - Balasundaram, Miruna
+AU  - Birol, Inanc
+AU  - Butterfield, Yaron
+AU  - Chiu, Readman
+AU  - Chu, Andy
+AU  - Chuah, Eric
+AU  - Chun, Hye-Jung
+AU  - Corbett, Richard
+AU  - Dhalla, Noreen
+AU  - Guin, Ranabir
+AU  - He, An
+AU  - Hirst, Carrie
+AU  - Hirst, Martin
+AU  - Holt, Robert A
+AU  - Jones, Steven
+AU  - Karsan, Aly
+AU  - Lee, Darlene
+AU  - Li, Haiyan I
+AU  - Marra, Marco A
+AU  - Mayo, Michael
+AU  - Moore, Richard A
+AU  - Mungall, Karen
+AU  - Parker, Jeremy
+AU  - Pleasance, Erin
+AU  - Plettner, Patrick
+AU  - Schein, Jacquie
+AU  - Stoll, Dominik
+AU  - Swanson, Lucas
+AU  - Tam, Angela
+AU  - Thiessen, Nina
+AU  - Varhol, Richard
+AU  - Wye, Natasja
+AU  - Zhao, Yongjun
+AU  - Gabriel, Stacey
+AU  - Getz, Gad
+AU  - Sougnez, Carrie
+AU  - Zou, Lihua
+AU  - Leiserson, Mark D M
+AU  - Vandin, Fabio
+AU  - Wu, Hsin-Ta
+AU  - Applebaum, Frederick
+AU  - Baylin, Stephen B
+AU  - Akbani, Rehan
+AU  - Broom, Bradley M
+AU  - Chen, Ken
+AU  - Motter, Thomas C
+AU  - Nguyen, Khanh
+AU  - Weinstein, John N
+AU  - Zhang, Nianziang
+AU  - Ferguson, Martin L
+AU  - Adams, Christopher
+AU  - Black, Aaron
+AU  - Bowen, Jay
+AU  - Gastier-Foster, Julie
+AU  - Grossman, Thomas
+AU  - Lichtenberg, Tara
+AU  - Wise, Lisa
+AU  - Davidsen, Tanja
+AU  - Demchok, John A
+AU  - Shaw, Kenna R Mills
+AU  - Sheth, Margi
+AU  - Sofia, Heidi J
+AU  - Yang, Liming
+AU  - Downing, James R
+AU  - Eley, Greg
+T1  - Genomic and epigenomic landscapes of adult de novo acute myeloid leukemia
+LA  - eng
+SN  - 1533-4406
+SN  - 0028-4793
+Y1  - 2013/05/30
+ET  - 2013/05/01
+AB  - BACKGROUND: Many mutations that contribute to the pathogenesis of acute myeloid leukemia (AML) are undefined. The relationships between patterns of mutations and epigenetic phenotypes are not yet clear. METHODS: We analyzed the genomes of 200 clinically annotated adult cases of de novo AML, using either whole-genome sequencing (50 cases) or whole-exome sequencing (150 cases), along with RNA and microRNA sequencing and DNA-methylation analysis. RESULTS: AML genomes have fewer mutations than most other adult cancers, with an average of only 13 mutations found in genes. Of these, an average of 5 are in genes that are recurrently mutated in AML. A total of 23 genes were significantly mutated, and another 237 were mutated in two or more samples. Nearly all samples had at least 1 nonsynonymous mutation in one of nine categories of genes that are almost certainly relevant for pathogenesis, including transcription-factor fusions (18% of cases), the gene encoding nucleophosmin (NPM1) (27%), tumor-suppressor genes (16%), DNA-methylation-related genes (44%), signaling genes (59%), chromatin-modifying genes (30%), myeloid transcription-factor genes (22%), cohesin-complex genes (13%), and spliceosome-complex genes (14%). Patterns of cooperation and mutual exclusivity suggested strong biologic relationships among several of the genes and categories. CONCLUSIONS: We identified at least one potential driver mutation in nearly all AML samples and found that a complex interplay of genetic events contributes to AML pathogenesis in individual patients. The databases from this study are widely available to serve as a foundation for further investigations of AML pathogenesis, classification, and risk stratification. (Funded by the National Institutes of Health.).
+SP  - 2059
+EP  - 2074
+VL  - 368
+IS  - 22
+AN  - 23634996
+UR  - https://pubmed.ncbi.nlm.nih.gov/23634996
+DO  - 10.1056/NEJMoa1301689
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767041/
+U1  - 23634996[pmid]
+U2  - PMC3767041[pmcid]
+J2  - N Engl J Med
+JF  - The New England journal of medicine
+KW  - Adult
+KW  - CpG Islands
+KW  - DNA Methylation
+KW  - Epigenomics
+KW  - Female
+KW  - Gene Expression
+KW  - Gene Fusion
+KW  - Genome, Human
+KW  - Humans
+KW  - Leukemia, Myeloid, Acute/classification/*genetics
+KW  - Male
+KW  - MicroRNAs/genetics
+KW  - Middle Aged
+KW  - *Mutation
+KW  - Sequence Analysis, DNA/methods
+ER  - 

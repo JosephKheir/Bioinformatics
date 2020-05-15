@@ -1,0 +1,394 @@
+TY  - JOUR
+ID  - Roberts
+AU  - Roberts, Steven A
+AU  - Lawrence, Michael S
+AU  - Klimczak, Leszek J
+AU  - Grimm, Sara A
+AU  - Fargo, David
+AU  - Stojanov, Petar
+AU  - Kiezun, Adam
+AU  - Kryukov, Gregory V
+AU  - Carter, Scott L
+AU  - Saksena, Gordon
+AU  - Harris, Shawn
+AU  - Shah, Ruchir R
+AU  - Resnick, Michael A
+AU  - Getz, Gad
+AU  - Gordenin, Dmitry A
+PY  - 2013
+DA  - 2013/09/01
+TI  - An APOBEC cytidine deaminase mutagenesis pattern is widespread in human cancers
+JO  - Nature Genetics
+SP  - 970
+EP  - 976
+VL  - 45
+IS  - 9
+AB  - Dmitry Gordenin, Gad Getz and colleagues report an analysis of mutation patterns in cancer genomes and find evidence of mutagenesis induced by APOBEC cytidine deaminase enzymes. They find an APOBEC mutagenesis pattern in bladder, cervical, breast, head and neck, and lung cancers, representing 68% of all mutations in some samples.
+SN  - 1546-1718
+UR  - https://doi.org/10.1038/ng.2702
+DO  - 10.1038/ng.2702
+ID  - Roberts2013
+ER  - 
+TY  - JOUR
+ID  - Griffith
+AU  - Griffith, Malachi
+AU  - Griffith, Obi L
+AU  - Coffman, Adam C
+AU  - Weible, James V
+AU  - McMichael, Josh F
+AU  - Spies, Nicholas C
+AU  - Koval, James
+AU  - Das, Indraniel
+AU  - Callaway, Matthew B
+AU  - Eldred, James M
+AU  - Miller, Christopher A
+AU  - Subramanian, Janakiraman
+AU  - Govindan, Ramaswamy
+AU  - Kumar, Runjun D
+AU  - Bose, Ron
+AU  - Ding, Li
+AU  - Walker, Jason R
+AU  - Larson, David E
+AU  - Dooling, David J
+AU  - Smith, Scott M
+AU  - Ley, Timothy J
+AU  - Mardis, Elaine R
+AU  - Wilson, Richard K
+PY  - 2013
+DA  - 2013/12/01
+TI  - DGIdb: mining the druggable genome
+JO  - Nature Methods
+SP  - 1209
+EP  - 1210
+VL  - 10
+IS  - 12
+AB  - A database of known drug-gene interactions, with information derived from many public sources, allows the identification of genes that are currently targeted by a drug and the membership of genes in a category, such as kinase genes, that have a high potential for drug development.
+SN  - 1548-7105
+UR  - https://doi.org/10.1038/nmeth.2689
+DO  - 10.1038/nmeth.2689
+ID  - Griffith2013
+ER  - 
+Provider: Silverchair
+Database: Oxford University Press
+Content: text/plain; charset="UTF-8"
+
+TY  - JOUR
+ID  - Cotto
+AU  - Cotto, Kelsy C
+AU  - Wagner, Alex H
+AU  - Feng, Yang-Yang
+AU  - Kiwala, Susanna
+AU  - Coffman, Adam C
+AU  - Spies, Gregory
+AU  - Wollam, Alex
+AU  - Spies, Nicholas C
+AU  - Griffith, Obi L
+AU  - Griffith, Malachi
+T1  - DGIdb 3.0: a redesign and expansion of the drug–gene interaction database
+PY  - 2017
+Y1  - 2017/11/16/
+DO  - 10.1093/nar/gkx1143
+JO  - Nucleic Acids Research
+JA  - Nucleic Acids Res
+VL  - 46
+IS  - D1
+SP  - D1068
+EP  - D1073
+SN  - 0305-1048
+AB  - The drug–gene interaction database (DGIdb, www.dgidb.org) consolidates, organizes and presents drug–gene interactions and gene druggability information from papers, databases and web resources. DGIdb normalizes content from 30 disparate sources and allows for user-friendly advanced browsing, searching and filtering for ease of access through an intuitive web user interface, application programming interface (API) and public cloud-based server image. DGIdb v3.0 represents a major update of the database. Nine of the previously included 24 sources were updated. Six new resources were added, bringing the total number of sources to 30. These updates and additions of sources have cumulatively resulted in 56 309 interaction claims. This has also substantially expanded the comprehensive catalogue of druggable genes and anti-neoplastic drug–gene interactions included in the DGIdb. Along with these content updates, v3.0 has received a major overhaul of its codebase, including an updated user interface, preset interaction search filters, consolidation of interaction information into interaction groups, greatly improved search response times and upgrading the underlying web application framework. In addition, the expanded API features new endpoints which allow users to extract more detailed information about queried drugs, genes and drug–gene interactions, including listings of PubMed IDs, interaction type and other interaction metadata.
+Y2  - 4/12/2020
+UR  - https://doi.org/10.1093/nar/gkx1143
+ER  - 
+
+
+TY  - JOUR
+ID  - Ley
+DB  - PubMed
+AU  - Cancer Genome Atlas Research Network
+AU  - Ley, Timothy J
+AU  - Miller, Christopher
+AU  - Ding, Li
+AU  - Raphael, Benjamin J
+AU  - Mungall, Andrew J
+AU  - Robertson, A Gordon
+AU  - Hoadley, Katherine
+AU  - Triche, Timothy J, Jr
+AU  - Laird, Peter W
+AU  - Baty, Jack D
+AU  - Fulton, Lucinda L
+AU  - Fulton, Robert
+AU  - Heath, Sharon E
+AU  - Kalicki-Veizer, Joelle
+AU  - Kandoth, Cyriac
+AU  - Klco, Jeffery M
+AU  - Koboldt, Daniel C
+AU  - Kanchi, Krishna-Latha
+AU  - Kulkarni, Shashikant
+AU  - Lamprecht, Tamara L
+AU  - Larson, David E
+AU  - Lin, Ling
+AU  - Lu, Charles
+AU  - McLellan, Michael D
+AU  - McMichael, Joshua F
+AU  - Payton, Jacqueline
+AU  - Schmidt, Heather
+AU  - Spencer, David H
+AU  - Tomasson, Michael H
+AU  - Wallis, John W
+AU  - Wartman, Lukas D
+AU  - Watson, Mark A
+AU  - Welch, John
+AU  - Wendl, Michael C
+AU  - Ally, Adrian
+AU  - Balasundaram, Miruna
+AU  - Birol, Inanc
+AU  - Butterfield, Yaron
+AU  - Chiu, Readman
+AU  - Chu, Andy
+AU  - Chuah, Eric
+AU  - Chun, Hye-Jung
+AU  - Corbett, Richard
+AU  - Dhalla, Noreen
+AU  - Guin, Ranabir
+AU  - He, An
+AU  - Hirst, Carrie
+AU  - Hirst, Martin
+AU  - Holt, Robert A
+AU  - Jones, Steven
+AU  - Karsan, Aly
+AU  - Lee, Darlene
+AU  - Li, Haiyan I
+AU  - Marra, Marco A
+AU  - Mayo, Michael
+AU  - Moore, Richard A
+AU  - Mungall, Karen
+AU  - Parker, Jeremy
+AU  - Pleasance, Erin
+AU  - Plettner, Patrick
+AU  - Schein, Jacquie
+AU  - Stoll, Dominik
+AU  - Swanson, Lucas
+AU  - Tam, Angela
+AU  - Thiessen, Nina
+AU  - Varhol, Richard
+AU  - Wye, Natasja
+AU  - Zhao, Yongjun
+AU  - Gabriel, Stacey
+AU  - Getz, Gad
+AU  - Sougnez, Carrie
+AU  - Zou, Lihua
+AU  - Leiserson, Mark D M
+AU  - Vandin, Fabio
+AU  - Wu, Hsin-Ta
+AU  - Applebaum, Frederick
+AU  - Baylin, Stephen B
+AU  - Akbani, Rehan
+AU  - Broom, Bradley M
+AU  - Chen, Ken
+AU  - Motter, Thomas C
+AU  - Nguyen, Khanh
+AU  - Weinstein, John N
+AU  - Zhang, Nianziang
+AU  - Ferguson, Martin L
+AU  - Adams, Christopher
+AU  - Black, Aaron
+AU  - Bowen, Jay
+AU  - Gastier-Foster, Julie
+AU  - Grossman, Thomas
+AU  - Lichtenberg, Tara
+AU  - Wise, Lisa
+AU  - Davidsen, Tanja
+AU  - Demchok, John A
+AU  - Shaw, Kenna R Mills
+AU  - Sheth, Margi
+AU  - Sofia, Heidi J
+AU  - Yang, Liming
+AU  - Downing, James R
+AU  - Eley, Greg
+T1  - Genomic and epigenomic landscapes of adult de novo acute myeloid leukemia
+LA  - eng
+SN  - 1533-4406
+SN  - 0028-4793
+Y1  - 2013/05/30
+ET  - 2013/05/01
+AB  - BACKGROUND: Many mutations that contribute to the pathogenesis of acute myeloid leukemia (AML) are undefined. The relationships between patterns of mutations and epigenetic phenotypes are not yet clear. METHODS: We analyzed the genomes of 200 clinically annotated adult cases of de novo AML, using either whole-genome sequencing (50 cases) or whole-exome sequencing (150 cases), along with RNA and microRNA sequencing and DNA-methylation analysis. RESULTS: AML genomes have fewer mutations than most other adult cancers, with an average of only 13 mutations found in genes. Of these, an average of 5 are in genes that are recurrently mutated in AML. A total of 23 genes were significantly mutated, and another 237 were mutated in two or more samples. Nearly all samples had at least 1 nonsynonymous mutation in one of nine categories of genes that are almost certainly relevant for pathogenesis, including transcription-factor fusions (18% of cases), the gene encoding nucleophosmin (NPM1) (27%), tumor-suppressor genes (16%), DNA-methylation-related genes (44%), signaling genes (59%), chromatin-modifying genes (30%), myeloid transcription-factor genes (22%), cohesin-complex genes (13%), and spliceosome-complex genes (14%). Patterns of cooperation and mutual exclusivity suggested strong biologic relationships among several of the genes and categories. CONCLUSIONS: We identified at least one potential driver mutation in nearly all AML samples and found that a complex interplay of genetic events contributes to AML pathogenesis in individual patients. The databases from this study are widely available to serve as a foundation for further investigations of AML pathogenesis, classification, and risk stratification. (Funded by the National Institutes of Health.).
+SP  - 2059
+EP  - 2074
+VL  - 368
+IS  - 22
+AN  - 23634996
+UR  - https://pubmed.ncbi.nlm.nih.gov/23634996
+DO  - 10.1056/NEJMoa1301689
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767041/
+U1  - 23634996[pmid]
+U2  - PMC3767041[pmcid]
+J2  - N Engl J Med
+JF  - The New England journal of medicine
+KW  - Adult
+KW  - CpG Islands
+KW  - DNA Methylation
+KW  - Epigenomics
+KW  - Female
+KW  - Gene Expression
+KW  - Gene Fusion
+KW  - Genome, Human
+KW  - Humans
+KW  - Leukemia, Myeloid, Acute/classification/*genetics
+KW  - Male
+KW  - MicroRNAs/genetics
+KW  - Middle Aged
+KW  - *Mutation
+KW  - Sequence Analysis, DNA/methods
+ER  - 
+TY  - JOUR
+ID  - Mayakonda
+DB  - PubMed
+AU  - Mayakonda, Anand
+AU  - Lin, De-Chen
+AU  - Assenov, Yassen
+AU  - Plass, Christoph
+AU  - Koeffler, H Phillip
+T1  - Maftools: efficient and comprehensive analysis of somatic variants in cancer
+LA  - eng
+SN  - 1549-5469
+SN  - 1088-9051
+Y1  - 2018/11/
+ET  - 2018/10/19
+AB  - Numerous large-scale genomic studies of matched tumor-normal samples have established the somatic landscapes of most cancer types. However, the downstream analysis of data from somatic mutations entails a number of computational and statistical approaches, requiring usage of independent software and numerous tools. Here, we describe an R Bioconductor package, Maftools, which offers a multitude of analysis and visualization modules that are commonly used in cancer genomic studies, including driver gene identification, pathway, signature, enrichment, and association analyses. Maftools only requires somatic variants in Mutation Annotation Format (MAF) and is independent of larger alignment files. With the implementation of well-established statistical and computational methods, Maftools facilitates data-driven research and comparative analysis to discover novel results from publicly available data sets. In the present study, using three of the well-annotated cohorts from The Cancer Genome Atlas (TCGA), we describe the application of Maftools to reproduce known results. More importantly, we show that Maftools can also be used to uncover novel findings through integrative analysis.
+SP  - 1747
+EP  - 1756
+VL  - 28
+IS  - 11
+AN  - 30341162
+UR  - https://pubmed.ncbi.nlm.nih.gov/30341162
+DO  - 10.1101/gr.239244.118
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6211645/
+U1  - 30341162[pmid]
+U2  - PMC6211645[pmcid]
+U4  - gr.239244.118[PII]
+J2  - Genome Res
+JF  - Genome research
+KW  - *Clonal Evolution
+KW  - Humans
+KW  - Mutation Rate
+KW  - Neoplasms/*genetics
+KW  - Sequence Analysis, DNA/*methods
+KW  - *Software
+PB  - Cold Spring Harbor Laboratory Press
+ER  - 
+Provider: Silverchair
+Database: Oxford University Press
+Content: text/plain; charset="UTF-8"
+
+TY  - JOUR
+ID  - Tamborero
+AU  - Tamborero, David
+AU  - Gonzalez-Perez, Abel
+AU  - Lopez-Bigas, Nuria
+T1  - OncodriveCLUST: exploiting the positional clustering of somatic mutations to identify cancer genes
+PY  - 2013
+Y1  - 2013/07/31/
+DO  - 10.1093/bioinformatics/btt395
+JO  - Bioinformatics
+JA  - Bioinformatics
+VL  - 29
+IS  - 18
+SP  - 2238
+EP  - 2244
+SN  - 1367-4803
+AB  - Motivation: Gain-of-function mutations often cluster in specific protein regions, a signal that those mutations provide an adaptive advantage to cancer cells and consequently are positively selected during clonal evolution of tumours. We sought to determine the overall extent of this feature in cancer and the possibility to use this feature to identify drivers.Results: We have developed OncodriveCLUST, a method to identify genes with a significant bias towards mutation clustering within the protein sequence. This method constructs the background model by assessing coding-silent mutations, which are assumed not to be under positive selection and thus may reflect the baseline tendency of somatic mutations to be clustered. OncodriveCLUST analysis of the Catalogue of Somatic Mutations in Cancer retrieved a list of genes enriched by the Cancer Gene Census, prioritizing those with dominant phenotypes but also highlighting some recessive cancer genes, which showed wider but still delimited mutation clusters. Assessment of datasets from The Cancer Genome Atlas demonstrated that OncodriveCLUST selected cancer genes that were nevertheless missed by methods based on frequency and functional impact criteria. This stressed the benefit of combining approaches based on complementary principles to identify driver mutations. We propose OncodriveCLUST as an effective tool for that purpose.Availability: OncodriveCLUST has been implemented as a Python script and is freely available from http://bg.upf.edu/oncodriveclustContact:nuria.lopez@upf.edu or abel.gonzalez@upf.eduSupplementary information:Supplementary data are available at Bioinformatics online.
+Y2  - 4/11/2020
+UR  - https://doi.org/10.1093/bioinformatics/btt395
+ER  - 
+
+
+TY  - JOUR
+ID  - Alexandrov
+AU  - Alexandrov, Ludmil B.
+AU  - Nik-Zainal, Serena
+AU  - Wedge, David C.
+AU  - Aparicio, Samuel A. J. R.
+AU  - Behjati, Sam
+AU  - Biankin, Andrew V.
+AU  - Bignell, Graham R.
+AU  - Bolli, Niccolò
+AU  - Borg, Ake
+AU  - Børresen-Dale, Anne-Lise
+AU  - Boyault, Sandrine
+AU  - Burkhardt, Birgit
+AU  - Butler, Adam P.
+AU  - Caldas, Carlos
+AU  - Davies, Helen R.
+AU  - Desmedt, Christine
+AU  - Eils, Roland
+AU  - Eyfjörd, Jórunn Erla
+AU  - Foekens, John A.
+AU  - Greaves, Mel
+AU  - Hosoda, Fumie
+AU  - Hutter, Barbara
+AU  - Ilicic, Tomislav
+AU  - Imbeaud, Sandrine
+AU  - Imielinski, Marcin
+AU  - Jäger, Natalie
+AU  - Jones, David T. W.
+AU  - Jones, David
+AU  - Knappskog, Stian
+AU  - Kool, Marcel
+AU  - Lakhani, Sunil R.
+AU  - López-Otín, Carlos
+AU  - Martin, Sancha
+AU  - Munshi, Nikhil C.
+AU  - Nakamura, Hiromi
+AU  - Northcott, Paul A.
+AU  - Pajic, Marina
+AU  - Papaemmanuil, Elli
+AU  - Paradiso, Angelo
+AU  - Pearson, John V.
+AU  - Puente, Xose S.
+AU  - Raine, Keiran
+AU  - Ramakrishna, Manasa
+AU  - Richardson, Andrea L.
+AU  - Richter, Julia
+AU  - Rosenstiel, Philip
+AU  - Schlesner, Matthias
+AU  - Schumacher, Ton N.
+AU  - Span, Paul N.
+AU  - Teague, Jon W.
+AU  - Totoki, Yasushi
+AU  - Tutt, Andrew N. J.
+AU  - Valdés-Mas, Rafael
+AU  - van Buuren, Marit M.
+AU  - van ’t Veer, Laura
+AU  - Vincent-Salomon, Anne
+AU  - Waddell, Nicola
+AU  - Yates, Lucy R.
+AU  - Zucman-Rossi, Jessica
+AU  - Andrew Futreal, P.
+AU  - McDermott, Ultan
+AU  - Lichter, Peter
+AU  - Meyerson, Matthew
+AU  - Grimmond, Sean M.
+AU  - Siebert, Reiner
+AU  - Campo, Elías
+AU  - Shibata, Tatsuhiro
+AU  - Pfister, Stefan M.
+AU  - Campbell, Peter J.
+AU  - Stratton, Michael R.
+AU  - Australian Pancreatic Cancer Genome Initiative
+AU  - ICGC Breast Cancer Consortium
+AU  - ICGC MMML-Seq Consortium
+AU  - ICGC PedBrain
+PY  - 2013
+DA  - 2013/08/01
+TI  - Signatures of mutational processes in human cancer
+JO  - Nature
+SP  - 415
+EP  - 421
+VL  - 500
+IS  - 7463
+AB  - All cancers are caused by somatic mutations; however, understanding of the biological processes generating these mutations is limited. The catalogue of somatic mutations from a cancer genome bears the signatures of the mutational processes that have been operative. Here we analysed 4,938,362 mutations from 7,042 cancers and extracted more than 20 distinct mutational signatures. Some are present in many cancer types, notably a signature attributed to the APOBEC family of cytidine deaminases, whereas others are confined to a single cancer class. Certain signatures are associated with age of the patient at cancer diagnosis, known mutagenic exposures or defects in DNA maintenance, but many are of cryptic origin. In addition to these genome-wide mutational signatures, hypermutation localized to small genomic regions, ‘kataegis’, is found in many cancer types. The results reveal the diversity of mutational processes underlying the development of cancer, with potential implications for understanding of cancer aetiology, prevention and therapy.
+SN  - 1476-4687
+UR  - https://doi.org/10.1038/nature12477
+DO  - 10.1038/nature12477
+ID  - Alexandrov2013
+ER  - 

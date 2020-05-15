@@ -1,0 +1,216 @@
+TY  - JOUR
+ID  - Chiu
+AU  - Chiu, Charles Y.
+AU  - Miller, Steven A.
+PY  - 2019
+DA  - 2019/06/01
+TI  - Clinical metagenomics
+JO  - Nature Reviews Genetics
+SP  - 341
+EP  - 355
+VL  - 20
+IS  - 6
+AB  - Clinical metagenomic next-generation sequencing (mNGS), the comprehensive analysis of microbial and host genetic material (DNA and RNA) in samples from patients, is rapidly moving from research to clinical laboratories. This emerging approach is changing how physicians diagnose and treat infectious disease, with applications spanning a wide range of areas, including antimicrobial resistance, the microbiome, human host gene expression (transcriptomics) and oncology. Here, we focus on the challenges of implementing mNGS in the clinical laboratory and address potential solutions for maximizing its impact on patient care and public health.
+SN  - 1471-0064
+UR  - https://doi.org/10.1038/s41576-019-0113-7
+DO  - 10.1038/s41576-019-0113-7
+ID  - Chiu2019
+ER  - 
+TY  - JOUR
+ID  - Neilson
+DB  - PubMed
+AU  - Neilson, Julia W
+AU  - Califf, Katy
+AU  - Cardona, Cesar
+AU  - Copeland, Audrey
+AU  - van Treuren, Will
+AU  - Josephson, Karen L
+AU  - Knight, Rob
+AU  - Gilbert, Jack A
+AU  - Quade, Jay
+AU  - Caporaso, J Gregory
+AU  - Maier, Raina M
+T1  - Significant Impacts of Increasing Aridity on the Arid Soil Microbiome
+LA  - eng
+SN  - 2379-5077
+SN  - 2379-5077
+Y1  - 2017/05/30
+AB  - Global deserts occupy one-third of the Earth's surface and contribute significantly to organic carbon storage, a process at risk in dryland ecosystems that are highly vulnerable to climate-driven ecosystem degradation. The forces controlling desert ecosystem degradation rates are poorly understood, particularly with respect to the relevance of the arid-soil microbiome. Here we document correlations between increasing aridity and soil bacterial and archaeal microbiome composition along arid to hyperarid transects traversing the Atacama Desert, Chile. A meta-analysis reveals that Atacama soil microbiomes exhibit a gradient in composition, are distinct from a broad cross-section of nondesert soils, and yet are similar to three deserts from different continents. Community richness and diversity were significantly positively correlated with soil relative humidity (SoilRH). Phylogenetic composition was strongly correlated with SoilRH, temperature, and electrical conductivity. The strongest and most significant correlations between SoilRH and phylum relative abundance were observed for Acidobacteria, Proteobacteria, Planctomycetes, Verrucomicrobia, and Euryarchaeota (Spearman's rank correlation [r(s)] = >0.81; false-discovery rate [q] = ≤0.005), characterized by 10- to 300-fold decreases in the relative abundance of each taxon. In addition, network analysis revealed a deterioration in the density of significant associations between taxa along the arid to hyperarid gradient, a pattern that may compromise the resilience of hyperarid communities because they lack properties associated with communities that are more integrated. In summary, results suggest that arid-soil microbiome stability is sensitive to aridity as demonstrated by decreased community connectivity associated with the transition from the arid class to the hyperarid class and the significant correlations observed between soilRH and both diversity and the relative abundances of key microbial phyla typically dominant in global soils. IMPORTANCE We identify key environmental and geochemical factors that shape the arid soil microbiome along aridity and vegetation gradients spanning over 300 km of the Atacama Desert, Chile. Decreasing average soil relative humidity and increasing temperature explain significant reductions in the diversity and connectivity of these desert soil microbial communities and lead to significant reductions in the abundance of key taxa typically associated with fertile soils. This finding is important because it suggests that predicted climate change-driven increases in aridity may compromise the capacity of the arid-soil microbiome to sustain necessary nutrient cycling and carbon sequestration functions as well as vegetative cover in desert ecosystems, which comprise one-third of the terrestrial biomes on Earth.
+SP  - e00195-16
+VL  - 2
+IS  - 3
+AN  - 28593197
+UR  - https://pubmed.ncbi.nlm.nih.gov/28593197
+DO  - 10.1128/mSystems.00195-16
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5451488/
+U1  - 28593197[pmid]
+U2  - PMC5451488[pmcid]
+U4  - mSystems00195-16[PII]
+J2  - mSystems
+JF  - mSystems
+KW  - arid soil microbiome
+KW  - climate change
+KW  - desert
+KW  - desertification
+KW  - microbial diversity
+PB  - American Society for Microbiology
+ER  - 
+TY  - JOUR
+ID  - Kang
+AU  - Kang, Dae-Wook
+AU  - Adams, James B.
+AU  - Gregory, Ann C.
+AU  - Borody, Thomas
+AU  - Chittick, Lauren
+AU  - Fasano, Alessio
+AU  - Khoruts, Alexander
+AU  - Geis, Elizabeth
+AU  - Maldonado, Juan
+AU  - McDonough-Means, Sharon
+AU  - Pollard, Elena L.
+AU  - Roux, Simon
+AU  - Sadowsky, Michael J.
+AU  - Lipson, Karen Schwarzberg
+AU  - Sullivan, Matthew B.
+AU  - Caporaso, J. Gregory
+AU  - Krajmalnik-Brown, Rosa
+PY  - 2017
+DA  - 2017/01/23
+TI  - Microbiota Transfer Therapy alters gut ecosystem and improves gastrointestinal and autism symptoms: an open-label study
+JO  - Microbiome
+SP  - 10
+VL  - 5
+IS  - 1
+AB  - Autism spectrum disorders (ASD) are complex neurobiological disorders that impair social interactions and communication and lead to restricted, repetitive, and stereotyped patterns of behavior, interests, and activities. The causes of these disorders remain poorly understood, but gut microbiota, the 1013 bacteria in the human intestines, have been implicated because children with ASD often suffer gastrointestinal (GI) problems that correlate with ASD severity. Several previous studies have reported abnormal gut bacteria in children with ASD. The gut microbiome-ASD connection has been tested in a mouse model of ASD, where the microbiome was mechanistically linked to abnormal metabolites and behavior. Similarly, a study of children with ASD found that oral non-absorbable antibiotic treatment improved GI and ASD symptoms, albeit temporarily. Here, a small open-label clinical trial evaluated the impact of Microbiota Transfer Therapy (MTT) on gut microbiota composition and GI and ASD symptoms of 18 ASD-diagnosed children.
+SN  - 2049-2618
+UR  - https://doi.org/10.1186/s40168-016-0225-7
+DO  - 10.1186/s40168-016-0225-7
+ID  - Kang2017
+ER  - 
+TY  - JOUR
+ID  - Bolyen
+AU  - Bolyen, Evan
+AU  - Rideout, Jai Ram
+AU  - Dillon, Matthew R.
+AU  - Bokulich, Nicholas A.
+AU  - Abnet, Christian C.
+AU  - Al-Ghalith, Gabriel A.
+AU  - Alexander, Harriet
+AU  - Alm, Eric J.
+AU  - Arumugam, Manimozhiyan
+AU  - Asnicar, Francesco
+AU  - Bai, Yang
+AU  - Bisanz, Jordan E.
+AU  - Bittinger, Kyle
+AU  - Brejnrod, Asker
+AU  - Brislawn, Colin J.
+AU  - Brown, C. Titus
+AU  - Callahan, Benjamin J.
+AU  - Caraballo-Rodríguez, Andrés Mauricio
+AU  - Chase, John
+AU  - Cope, Emily K.
+AU  - Da Silva, Ricardo
+AU  - Diener, Christian
+AU  - Dorrestein, Pieter C.
+AU  - Douglas, Gavin M.
+AU  - Durall, Daniel M.
+AU  - Duvallet, Claire
+AU  - Edwardson, Christian F.
+AU  - Ernst, Madeleine
+AU  - Estaki, Mehrbod
+AU  - Fouquier, Jennifer
+AU  - Gauglitz, Julia M.
+AU  - Gibbons, Sean M.
+AU  - Gibson, Deanna L.
+AU  - Gonzalez, Antonio
+AU  - Gorlick, Kestrel
+AU  - Guo, Jiarong
+AU  - Hillmann, Benjamin
+AU  - Holmes, Susan
+AU  - Holste, Hannes
+AU  - Huttenhower, Curtis
+AU  - Huttley, Gavin A.
+AU  - Janssen, Stefan
+AU  - Jarmusch, Alan K.
+AU  - Jiang, Lingjing
+AU  - Kaehler, Benjamin D.
+AU  - Kang, Kyo Bin
+AU  - Keefe, Christopher R.
+AU  - Keim, Paul
+AU  - Kelley, Scott T.
+AU  - Knights, Dan
+AU  - Koester, Irina
+AU  - Kosciolek, Tomasz
+AU  - Kreps, Jorden
+AU  - Langille, Morgan G. I.
+AU  - Lee, Joslynn
+AU  - Ley, Ruth
+AU  - Liu, Yong-Xin
+AU  - Loftfield, Erikka
+AU  - Lozupone, Catherine
+AU  - Maher, Massoud
+AU  - Marotz, Clarisse
+AU  - Martin, Bryan D.
+AU  - McDonald, Daniel
+AU  - McIver, Lauren J.
+AU  - Melnik, Alexey V.
+AU  - Metcalf, Jessica L.
+AU  - Morgan, Sydney C.
+AU  - Morton, Jamie T.
+AU  - Naimey, Ahmad Turan
+AU  - Navas-Molina, Jose A.
+AU  - Nothias, Louis Felix
+AU  - Orchanian, Stephanie B.
+AU  - Pearson, Talima
+AU  - Peoples, Samuel L.
+AU  - Petras, Daniel
+AU  - Preuss, Mary Lai
+AU  - Pruesse, Elmar
+AU  - Rasmussen, Lasse Buur
+AU  - Rivers, Adam
+AU  - Robeson, Michael S.
+AU  - Rosenthal, Patrick
+AU  - Segata, Nicola
+AU  - Shaffer, Michael
+AU  - Shiffer, Arron
+AU  - Sinha, Rashmi
+AU  - Song, Se Jin
+AU  - Spear, John R.
+AU  - Swafford, Austin D.
+AU  - Thompson, Luke R.
+AU  - Torres, Pedro J.
+AU  - Trinh, Pauline
+AU  - Tripathi, Anupriya
+AU  - Turnbaugh, Peter J.
+AU  - Ul-Hasan, Sabah
+AU  - van der Hooft, Justin J. J.
+AU  - Vargas, Fernando
+AU  - Vázquez-Baeza, Yoshiki
+AU  - Vogtmann, Emily
+AU  - von Hippel, Max
+AU  - Walters, William
+AU  - Wan, Yunhu
+AU  - Wang, Mingxun
+AU  - Warren, Jonathan
+AU  - Weber, Kyle C.
+AU  - Williamson, Charles H. D.
+AU  - Willis, Amy D.
+AU  - Xu, Zhenjiang Zech
+AU  - Zaneveld, Jesse R.
+AU  - Zhang, Yilong
+AU  - Zhu, Qiyun
+AU  - Knight, Rob
+AU  - Caporaso, J. Gregory
+PY  - 2019
+DA  - 2019/08/01
+TI  - Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2
+JO  - Nature Biotechnology
+SP  - 852
+EP  - 857
+VL  - 37
+IS  - 8
+SN  - 1546-1696
+UR  - https://doi.org/10.1038/s41587-019-0209-9
+DO  - 10.1038/s41587-019-0209-9
+ID  - Bolyen2019
+ER  - 

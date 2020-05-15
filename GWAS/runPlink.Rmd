@@ -1,0 +1,175 @@
+---
+title: "Plink"
+author: "Joseph Kheir"
+date: "4/5/2020"
+output: github_document
+bibliography: bibliography.ris
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE, results = 'hide')
+```
+# Overview
+Genome wide association studies (GWAS) can bring several challenges when it comes to computational and analytical research. The GWAS toolset PLINK is the solution to some of these challenges. PLINK allows for hundreds of thousands of markers that were genotyped to be analyzed and manipulated rapidly for whole genome association studies [@Purcell].
+
+## Getting Started
+```{bash Getting Started}
+# Check that the input file is intact
+plink --file hapmap1
+```
+
+## Making a binary PED file
+```{bash}
+# Make a binary PED file
+plink --file hapmap1 --make-bed --out hapmap1
+
+# Making a binary PED file with selecting high genotyping
+plink --file hapmap1 --make-bed --mind 0.05 --out highgeno
+```
+```{r, results = 'show'}
+# When using the --make-bed option, the threshold filters for missing rates and allele frequency were automatically set to exclude nobody
+library(knitr)
+table <- read.table("hapmap1.fam", sep = "\t")
+knitr::kable(head(table), "markdown")
+table1 <- read.table("hapmap1.bim", sep = "\t")
+knitr::kable(head(table1), "markdown")
+```
+
+## Summary statistics: missing rates
+```{bash}
+# Generate summary statistics on rates of missing data
+plink --bfile hapmap1 --missing --out miss_stat
+
+# Use "-more" command to view data
+more miss_stat.lmiss
+more miss_stat.imiss
+
+# Analyze the data by chromosome
+plink --bfile hapmap1 --chr 1 --out res1 --missing
+plink --bfile hapmap1 --chr 2 --out res2 --missing
+```
+```{r, results = 'show'}
+# summary statistics on rates of missing data in the file, using the --missing option
+library(knitr)
+table <- read.table("miss_stat.lmiss", sep = "\t")
+knitr::kable(head(table), "markdown")
+table1 <- read.table("miss_stat.imiss", sep = "\t")
+knitr::kable(head(table1), "markdown")
+```
+
+## Summary statistics: allele frequencies
+```{bash}
+# Performing summary statistics on alelle frequencies
+plink --bfile hapmap1 --freq --out freq_stat
+
+# Use "within" to perform stratified analysis
+plink --bfile hapmap1 --freq --within pop.phe --out freq_stat
+more freq_stat.frq.strat
+
+# Use -snp to get statistics for specific SNP
+plink --bfile hapmap1 --snp rs1891905 --freq --within pop.phe --out snp1_frq_stat
+```
+```{r, results = 'show'}
+# frequency analysis (and the missingness analysis) stratified by a categorical, cluster variable
+library(knitr)
+table <- read.table("freq_stat.frq.strat", sep = "\t")
+knitr::kable(head(table), "markdown")
+```
+
+## Basic association analysis
+```{bash}
+# Perform basic association analysis
+plink --bfile hapmap1 --assoc --out as1
+
+# Sort association list and print first 10
+sort --key=7 -nr as1.assoc | head
+
+# A sorted association list with a range of segnificant values
+plink --bfile hapmap1 --assoc --adjust --out as2
+more as2.assoc.adjusted
+
+# Test for frequencies between groups
+plink --bfile hapmap1 --pheno pop.phe --assoc --adjust --out as3
+```
+```{r, results = 'show'}
+# Here we see that the simulated disease variant rs2222162 is actually the second most significant SNP in the list, with a large difference in allele frequencies of 0.28 in cases versus 0.62 in controls
+library(knitr)
+table <- read.table("as2.assoc.adjusted", sep = "\t")
+knitr::kable(head(table), "markdown")
+```
+
+## Genotypic and other association models
+```{bash}
+# Association statistics using 2-by-3 genotype table & standard allelic test using mode1
+plink --bfile hapmap1 --model --snp rs2222162 --out mod1
+# Declare minimum number per cell
+plink --bfile hapmap1 --model --cell 0 --snp rs2222162 --out mod2
+```
+
+## Stratification analysis
+```{bash}
+# Cluster analysis on basis of genetic identity
+plink --bfile hapmap1 --cluster --mc 2 --ppc 0.05 --out str1
+more str1.cluster1
+```
+```{r, results = 'show'}
+library(knitr)
+table <- read.table("str1.cluster1", sep = "\t")
+knitr::kable(head(table), "markdown")
+```
+
+## Association analysis accounting for clusters
+```{bash}
+plink --bfile hapmap1 --mh --within str1.cluster2 --adjust --out aac1
+more aac1.cmh.adjusted
+# Pair up the most similar individuals
+plink --bfile hapmap1 --cluster --cc --ppc 0.01 --out version2
+# Alternate cluster scheme
+plink --bfile hapmap1 --mh --within version2.cluster2 --adjust --out aac2
+# Specify the number of clusters wanted
+plink --bfile hapmap1 --cluster --K 2 --out version3
+# External clustering
+plink --bfile hapmap1 --mh --within pop.phe --adjust --out aac3
+
+# Visualize substrate by making patrix of pairwise IBS distances
+plink --bfile hapmap1 --cluster --matrix --out ibd_view
+```
+## Then in R, perform the following analysis on the above association analysis
+```{r}
+m <- as.matrix(read.table("ibd_view.mibs"))
+mds <- cmdscale(as.dist(1-m))
+k <- c( rep("green",45) , rep("blue",44) )
+plot(mds,pch=20,col=k)
+```
+
+## Quantitative trait association analysis
+```{bash}
+# By method of least squares
+plink --bfile hapmap1 --assoc --pheno qt.phe --out quant1
+```
+```{r, results = 'show'}
+library(knitr)
+table <- read.table("quant1.qassoc", sep = "\t")
+knitr::kable(head(table), "markdown") 
+```
+```{bash}
+# By method of purmutation
+plink --bfile hapmap1 --assoc --pheno qt.phe --perm --within str1.cluster2 --out quant2
+```
+```{bash}
+# Allow for multiple testing
+plink --bfile hapmap1 --assoc --pheno qt.phe --mperm 1000 --within str1.cluster2 --out quant3
+plink --bfile hapmap1 --pheno qt.phe --gxe --covar pop.phe --snp rs2222162 --out quant3
+```
+
+## Extracting a SNP of interest
+```{bash}
+plink --bfile hapmap1 --snp rs2222162 --recodeAD --out rec_snp1
+```
+```{r}
+d <- read.table("rec_snp1.raw" , header=T)
+summary(glm(PHENOTYPE-1 ~ rs2222162_1, data=d, family="binomial"))
+```
+
+## Citations

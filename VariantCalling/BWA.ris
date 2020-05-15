@@ -1,0 +1,35 @@
+TY  - JOUR
+DB  - PubMed
+AU  - Abuín, José M
+AU  - Pichel, Juan C
+AU  - Pena, Tomás F
+AU  - Amigo, Jorge
+T1  - SparkBWA: Speeding Up the Alignment of High-Throughput DNA Sequencing Data
+LA  - eng
+SN  - 1932-6203
+Y1  - 2016/05/16
+AB  - Next-generation sequencing (NGS) technologies have led to a huge amount of genomic data that need to be analyzed and interpreted. This fact has a huge impact on the DNA sequence alignment process, which nowadays requires the mapping of billions of small DNA sequences onto a reference genome. In this way, sequence alignment remains the most time-consuming stage in the sequence analysis workflow. To deal with this issue, state of the art aligners take advantage of parallelization strategies. However, the existent solutions show limited scalability and have a complex implementation. In this work we introduce SparkBWA, a new tool that exploits the capabilities of a big data technology as Spark to boost the performance of one of the most widely adopted aligner, the Burrows-Wheeler Aligner (BWA). The design of SparkBWA uses two independent software layers in such a way that no modifications to the original BWA source code are required, which assures its compatibility with any BWA version (future or legacy). SparkBWA is evaluated in different scenarios showing noticeable results in terms of performance and scalability. A comparison to other parallel BWA-based aligners validates the benefits of our approach. Finally, an intuitive and flexible API is provided to NGS professionals in order to facilitate the acceptance and adoption of the new tool. The source code of the software described in this paper is publicly available at https://github.com/citiususc/SparkBWA, with a GPL3 license.
+SP  - e0155461
+EP  - e0155461
+VL  - 11
+IS  - 5
+AN  - 27182962
+UR  - https://pubmed.ncbi.nlm.nih.gov/27182962
+DO  - 10.1371/journal.pone.0155461
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4868289/
+U1  - 27182962[pmid]
+U2  - PMC4868289[pmcid]
+U4  - PONE-D-16-12863[PII]
+J2  - PLoS One
+JF  - PloS one
+KW  - Computational Biology/*methods
+KW  - Genomics/*methods
+KW  - *High-Throughput Nucleotide Sequencing
+KW  - Humans
+KW  - Reproducibility of Results
+KW  - Sequence Analysis, DNA/methods
+KW  - *Software
+KW  - Web Browser
+KW  - Workflow
+PB  - Public Library of Science
+ER  - 

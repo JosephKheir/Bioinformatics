@@ -1,0 +1,35 @@
+TY  - JOUR
+DB  - PubMed
+AU  - Mayakonda, Anand
+AU  - Lin, De-Chen
+AU  - Assenov, Yassen
+AU  - Plass, Christoph
+AU  - Koeffler, H Phillip
+T1  - Maftools: efficient and comprehensive analysis of somatic variants in cancer
+LA  - eng
+SN  - 1549-5469
+SN  - 1088-9051
+Y1  - 2018/11/
+ET  - 2018/10/19
+AB  - Numerous large-scale genomic studies of matched tumor-normal samples have established the somatic landscapes of most cancer types. However, the downstream analysis of data from somatic mutations entails a number of computational and statistical approaches, requiring usage of independent software and numerous tools. Here, we describe an R Bioconductor package, Maftools, which offers a multitude of analysis and visualization modules that are commonly used in cancer genomic studies, including driver gene identification, pathway, signature, enrichment, and association analyses. Maftools only requires somatic variants in Mutation Annotation Format (MAF) and is independent of larger alignment files. With the implementation of well-established statistical and computational methods, Maftools facilitates data-driven research and comparative analysis to discover novel results from publicly available data sets. In the present study, using three of the well-annotated cohorts from The Cancer Genome Atlas (TCGA), we describe the application of Maftools to reproduce known results. More importantly, we show that Maftools can also be used to uncover novel findings through integrative analysis.
+SP  - 1747
+EP  - 1756
+VL  - 28
+IS  - 11
+AN  - 30341162
+UR  - https://pubmed.ncbi.nlm.nih.gov/30341162
+DO  - 10.1101/gr.239244.118
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6211645/
+U1  - 30341162[pmid]
+U2  - PMC6211645[pmcid]
+U4  - gr.239244.118[PII]
+J2  - Genome Res
+JF  - Genome research
+KW  - *Clonal Evolution
+KW  - Humans
+KW  - Mutation Rate
+KW  - Neoplasms/*genetics
+KW  - Sequence Analysis, DNA/*methods
+KW  - *Software
+PB  - Cold Spring Harbor Laboratory Press
+ER  - 
